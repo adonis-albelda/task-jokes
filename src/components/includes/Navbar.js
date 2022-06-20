@@ -1,14 +1,21 @@
 import { Link, useMatch, useResolvedPath } from 'react-router-dom'
+import '../../styles/navbar.css';
 export default function Navbar() {
   return (
-    <nav className="nav">
-      <Link to="/" className='site-title'>
-        Site Name
-      </Link>
-      <ul>
-        <CustomLink to='home'>Home</CustomLink>
-        <CustomLink to='about'>About</CustomLink>
-      </ul>
+    <nav className='nav'>
+      <div className='container'>
+        <ul>
+          <CustomLink to='home'>So funktioniert's</CustomLink>
+          <CustomLink to='about'>sonderangebot</CustomLink>
+          <CustomLink to='/'>
+            <div className="with-icon">
+              <img className="icon" src={require(`../../assets/frontend1/shape.png`)}/>
+              <p>mein bereich</p>
+            </div>
+            <img className="icon" src={require(`../../assets/frontend1/path_2.png`)}/>
+          </CustomLink>
+        </ul>
+      </div>
     </nav>
   )
 }

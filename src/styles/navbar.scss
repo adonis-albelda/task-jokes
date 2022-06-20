@@ -1,0 +1,52 @@
+@import "./global/cssVariables.scss";
+
+.nav {
+  background-color: #323030;
+  color: white;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 1rem;
+  
+  .container {
+    display: flex;
+    justify-content: end;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+  }
+
+  ul li {
+    padding: 1.2rem 0.5rem;
+    
+    &.active {
+      background-color: $yellow;
+    }
+
+    &:hover {
+      background-color: $yellow;
+      transition: all ease 0.3s;
+    }
+  }
+
+  ul a {
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    padding: .25rem;
+    gap: 1.5rem;
+  }
+
+  .with-icon {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}

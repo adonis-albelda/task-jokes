@@ -1,0 +1,82 @@
+/*# sourceMappingURL=variables.css.map */
+button {
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #cbb590;
+  letter-spacing: 1px;
+  cursor: pointer;
+  opacity: 0.7;
+  padding: 0.6rem 1.8rem;
+  color: white;
+  min-width: 200px;
+}
+button.plain {
+  padding: 0;
+}
+button.outline {
+  background-color: transparent;
+}
+button img.icon {
+  padding-left: 0.8rem;
+}
+button.error {
+  background-color: #d50808;
+}
+button.error.outline {
+  color: #d50808;
+  border: 1px solid #d50808;
+}
+button.hard-warning {
+  background-color: #ff5722;
+}
+button.hard-warning.outline {
+  color: #ff5722;
+  border: 1px solid #ff5722;
+}
+button.light-warning {
+  background-color: #ff9800;
+}
+button.light-warning.outline {
+  color: #ff9800;
+  border: 1px solid #ff9800;
+}
+button.warning {
+  background-color: #deca1b;
+}
+button.warning.outline {
+  color: #deca1b;
+  border: 1px solid #deca1b;
+}
+button.light-success {
+  background-color: #33e75b;
+}
+button.light-success.outline {
+  color: #33e75b;
+  border: 1px solid #33e75b;
+}
+button.dark-success {
+  background-color: #12b135;
+}
+button.dark-success.outline {
+  color: #12b135;
+  border: 1px solid #12b135;
+}
+button.info {
+  background-color: #358be9;
+}
+button.info.outline {
+  color: #358be9;
+  border: 1px solid #358be9;
+}
+button.regular {
+  background-color: #cbb590;
+}
+button.regular.outline {
+  color: #cbb590;
+  border: 1px solid #cbb590;
+}
+button.outline {
+  background-color: transparent;
+}/*# sourceMappingURL=button.css.map */

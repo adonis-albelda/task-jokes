@@ -1,0 +1,103 @@
+@import "../global/cssVariables.scss";
+
+button {
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #cbb590;
+  letter-spacing: 1px;
+  cursor: pointer;
+  opacity: 0.7; 
+  padding: 0.6rem 1.8rem;
+  color: white;
+  min-width: 200px;
+  
+  &.plain {
+    padding: 0;
+  }
+
+  &.outline {
+    background-color: transparent;
+  }
+
+  img.icon {
+    padding-left: 0.8rem;
+  }
+
+  &.error {
+    background-color: #d50808;
+
+    &.outline {
+      color: #d50808;
+      border: 1px solid #d50808;
+    }
+  }
+
+  &.hard-warning {
+    background-color: #ff5722;
+
+    &.outline {
+      color: #ff5722;
+      border: 1px solid #ff5722;
+    }
+  }
+
+  &.light-warning {
+    background-color: #ff9800;
+
+    &.outline {
+      color: #ff9800;
+      border: 1px solid #ff9800;
+    }
+  }
+
+  &.warning {
+    background-color: #deca1b;
+
+    &.outline {
+      color: #deca1b;
+      border: 1px solid #deca1b;
+    }
+  }
+
+  &.light-success {
+    background-color: #33e75b;
+
+    &.outline {
+      color: #33e75b;
+      border: 1px solid #33e75b;
+    }
+  }
+
+  &.dark-success {
+    background-color: #12b135;
+
+    &.outline {
+      color: #12b135;
+      border: 1px solid #12b135;
+    }
+  }
+
+  &.info {
+    background-color: #358be9;
+
+    &.outline {
+      color: #358be9;
+      border: 1px solid #358be9;
+    }
+  }
+
+  &.regular {
+    background-color: $yellow;
+
+    &.outline {
+      color: $yellow;
+      border: 1px solid $yellow;
+    }
+  }
+
+  &.outline {
+   background-color: transparent;
+  }
+}

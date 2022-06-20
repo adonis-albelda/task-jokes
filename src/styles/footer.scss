@@ -1,0 +1,23 @@
+@import "./global/cssVariables.scss";
+
+footer {
+  background-image: url("../assets/frontend1/bitmap_2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+
+  .content p {
+    padding: 1rem 0;
+    color: white;
+    text-transform: uppercase;
+    line-height: 1.6rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  button {
+    color: $yellow;
+  }
+}
